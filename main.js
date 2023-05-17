@@ -1,7 +1,7 @@
 function searchNames() {
   var input = document.getElementById('search-input').value.toLowerCase();
   var names = ['Nicolò Carcagnì', 'Vincenzo Persico', 'Anna Spedicato']; // Nomi
-  var tableNumbers = ['Gloria Gaynor', 'Gloria Gaynor', 'Gloria Gaynor']; // Numeri di tavolo corrispondenti
+  var tableNumbers = ['Gloria Gaynor', 'Bruce Springsteen', 'Le Kardashan']; // Numeri di tavolo corrispondenti
   var results = document.getElementById('search-results');
   results.innerHTML = '';
 
